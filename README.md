@@ -1,4 +1,4 @@
-# Python Playground
+# Git Branches
 
 > A short program for testing Git Branches
 
