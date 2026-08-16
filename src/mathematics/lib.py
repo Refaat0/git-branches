@@ -1,5 +1,5 @@
 # This library exports basic mathematical functions
-# Author: Refaat || Version: 2.0
+# Author: Refaat || Version: 3.0
 
 #### Version 1.0 functions ####
 def add(x, y):
@@ -62,8 +62,10 @@ def slope(x1,x2,y1,y2):
     """ Returns the slope of two points in euclidean space
 
     Args:
-        x (float) A point
-        y (float) Another point
+        x1 (float) The first  points x component
+        x2 (float) The second points x component
+        y1 (float) The first  points y component
+        y2 (float) The second points y component
 
     Returns:
         float: The slope of the two specified points
@@ -74,3 +76,17 @@ def slope(x1,x2,y1,y2):
 
     return (y2-y1)/(x2-x1)
 
+#### Version 3.0 functions ####
+def dot_product(x1,y1,x2,y2):
+    """ Returns the dot product of two, two dimensional vectors 
+
+    Args:
+        x1 (float) The first  vectors x component
+        y1 (float) The first  vectors y component
+        x2 (float) The second vectors x component
+        y2 (float) The second vectors y component
+
+    Returns:
+        float: The dot product of two, two dimensional vectors
+    """
+    return (x1*x2) + (y1*y2)

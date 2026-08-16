@@ -2,11 +2,11 @@
 
 > A short program for testing Git Branches
 
-## Versions  
-1. [v1](https://github.com/Refaat0/git-branches/tree/v1)
-2. [v2](https://github.com/Refaat0/git-branches/tree/v2)
-3. Bravo
-4. Charlie
+## Versions
+1. [Master](https://github.com/Refaat0/git-branches/tree/master)
+2. [v1](https://github.com/Refaat0/git-branches/tree/v1)
+3. [v2](https://github.com/Refaat0/git-branches/tree/v2)
+4. [v3](https://github.com/Refaat0/git-branches/tree/v2)
 
 ## Installation && Testing
 Clone the repository to your local machine:

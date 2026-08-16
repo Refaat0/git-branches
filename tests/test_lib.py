@@ -1,5 +1,5 @@
 # This file exports testing functions for the mathematics library
-# Author: Refaat || Version: 2.0
+# Author: Refaat || Version: 3.0
 import unittest
 import sys
 
@@ -41,6 +41,11 @@ class TestMathetmaticsLibrary(unittest.TestCase):
         self.assertEqual(slope(3,2,9,4), 5)
         self.assertEqual(slope(-12,6,4,-6), -5/9)
         self.assertEqual(slope(7,7,2,2), None)
+
+    #### Version 3.0 tests ####
+    def test_dot_product(self):
+        self.assertEqual(dot_product(3,5,4,2), 22)
+        self.assertEqual(dot_product(2,3,-4,1), -5)
 
 
 if __name__ == '__main__':
