@@ -4,7 +4,7 @@
 
 ## Versions  
 1. [v1](https://github.com/Refaat0/git-branches/tree/v1)
-2. Alpha
+2. [v2](https://github.com/Refaat0/git-branches/tree/v2)
 3. Bravo
 4. Charlie
 

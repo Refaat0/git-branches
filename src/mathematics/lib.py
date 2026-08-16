@@ -1,5 +1,5 @@
 # This library exports basic mathematical functions
-# Author: Refaat || Version: 1.0
+# Author: Refaat || Version: 2.0
 
 #### Version 1.0 functions ####
 def add(x, y):
@@ -56,3 +56,21 @@ def divide(x, y):
         raise ZeroDivisionError("Cannot divide by zero")
 
     return x / y
+
+#### Version 2.0 functions ####
+def slope(x1,x2,y1,y2):
+    """ Returns the slope of two points in euclidean space
+
+    Args:
+        x (float) A point
+        y (float) Another point
+
+    Returns:
+        float: The slope of the two specified points
+        None:  When the slop is undefined (ie x2-x1==0)
+    """
+    if (x2 - x1 == 0):
+        return None # undefined slope
+
+    return (y2-y1)/(x2-x1)
+
